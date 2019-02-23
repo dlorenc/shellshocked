@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Content-type: text/html";
+echo ""
+
+echo "This cloud native app is running in Kubernetes!"
+echo ""
+echo "Our pod name is:"
+echo $(hostname)
+echo ""
