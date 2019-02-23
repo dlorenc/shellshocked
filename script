@@ -8,3 +8,7 @@ echo ""
 echo "Our pod name is:"
 echo $(hostname)
 echo ""
+
+echo "My bash version is:"
+echo $(bash --version)
+echo ""
