@@ -2,13 +2,20 @@
 
 echo "Content-type: text/html";
 echo ""
-
+echo "<html>"
+echo "<body>"
+echo "<p>"
 echo "This cloud native app is running in Kubernetes!"
-echo ""
+echo "</p>"
+echo "<p>"
 echo "Our pod name is:"
 echo $(hostname)
-echo ""
+echo "</p>"
 
+echo "<p>"
 echo "My bash version is:"
 echo $(bash --version)
-echo ""
+echo "</p>"
+
+echo "</body>"
+echo "</html>"
