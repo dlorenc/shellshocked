@@ -15,7 +15,7 @@ spec:
       containers:
         - name: app
           imagePullPolicy: Always
-          image: "gcr.io/shellshocked-demo/app:v2"
+          image: "gcr.io/shellshocked-demo/app:v1"
           ports:
             - name: http
               containerPort: 80
