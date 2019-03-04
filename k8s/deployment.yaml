@@ -12,6 +12,7 @@ spec:
       labels:
         app: hello
     spec:
+      terminationGracePeriodSeconds: 0
       containers:
         - name: app
           imagePullPolicy: Always
